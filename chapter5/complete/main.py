@@ -30,6 +30,9 @@ app = FastAPI(
     description=api_description,
     title="Sports World Central (SWC) Fantasy Football API",
     version="0.1",
+    docs_url="/docs",
+    redoc_url="/redoc",
+    openapi_url="/openapi.json",
 )
 
 
